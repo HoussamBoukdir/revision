@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <h2>Lorem ipsum dolor sit <br> amet consectetur.</h2>
+    <h3>Lorem <br> ipsum dolor sit amet consectetur.</h3>
+    <br>
+    <hr>
+    <a href="https://www.youtube.com/watch?v=KdGoEB04sUA&list=PLpQgsScLDotQb6HlW7LxCLRxf57nKt_6Y&ab_channel=DéveloppementDigitalDarija" title="allez a la page3" target="_self">page2</a>
+    <br>
+    <br>
+    <a href="https://www.google.com" target="_blank">Google.com</a>
+    <br>
+    <br>
+    <img src="blue.lnk"  width="500" height="500">
+    <br>
+    <br>
+    <video controls 
+    src="valo.mp4"  width="700" height="700">
+    </video>
+    <br>
+    <br>
+    <ul>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+    </ol>
+
+    <ol>
+        <dt>ofppt</dt>
+        <dd>office de formation professionel et de promotion de travail</dd>
+    </ol>
+    <br>
+    <ol>
+        <dt>ntic</dt>
+        <dd>nouvelle technologie </dd>
+    </ol>
+    <br><br>
+    <table border="1" style="text-align: center;" >
+        tableau de moy gen
+       <thead>
+        <th>num</th>
+        <th>note</th>
+        <th>nom</th>
+       </thead>
+       <tbody>
+         <tr>
+            <td>1</td>
+            <td>14</td>
+            <td>YCN</td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>10</td>
+            <td>RYAD</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>9</td>
+            <td>ZIZO</td>
+         </tr>
+       </tbody>
+       <tfoot>
+            <th colspan="2">la moy gen</th>
+            <th>15</th>
+       </tfoot>
+
+
+    </table>
+    <form action="#">
+        <fieldset>
+            <legend>formulaire de stagiaire</legend>
+            <p>
+             <label>nom</label>
+             <input type="text" name="name">
+            </p>
+           
+            <p>
+             <label for="" >prenom</label>
+             <input type="text" name="prenom">
+            </p>
+               <p>
+                <label for="" >adresse</label>
+                <input required maxlength="5" type="text" name="adresse">
+               </p>
+               <p>
+                <label for="">telephone</label>
+                <input type="text" pattern="06[0-9]{8}" name="tel"> 
+               </p>
+               <p>
+                <label for="">ville</label>
+                <input type="text" placeholder="agadir" name="agadir">
+               </p>
+               <p>
+                <label for="">password</label>
+                <input type="password"name=pwd id="" >
+               </p>
+                <p>
+                 <label for="">email</label>
+                 <input type="email" name="email" id="">
+                </p>  
+                <p>
+                    <label for="">photo</label>
+                    <input type="file" name="photo" id="">
+                </p>
+                <p>
+                    <label for="car">tapez votre car</label>
+                    <select name="car" id="car" >
+                    <option value="car">mercedes</option>
+                    <option value="car">audi</option>
+                    <option value="car">dacia</option> 
+                    <option value="car">vw</option>
+                    </select>
+                </p>
+        </fieldset>
+        <br>
+       <input type="submit" value="envoyer">
+       <input type="reset">
+    </form>
+    <br>
+    <table border="1">
+        <fieldset>
+            <thead>
+                <th>nom</th>
+                <th>math</th>
+                <th>pc</th>
+                <th>svt</th>
+                <th>ang</th>
+                <th>NG</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>YNS</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>12</td>
+                    <td>19</td>
+                    <td>17.34</td> 
+                </tr>
+                <tr>
+                    <td>YCN</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>9</td>
+                    <td>12.20</td> 
+                </tr>
+                <tr>
+                    <td>YSMN</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>19</td>
+                    <td>19</td>
+                    <td>19.34</td> 
+                </tr>
+                <tr>
+                    <td>Yanis</td>
+                    <td>10</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>8.90</td> 
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">le nombre des stagiaire qui sont admis :</td>
+                    <td>3</td>
+                </tr>
+            </tfoot>
+        </fieldset>
+    </table>
+    <br>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>formulaire</legend>
+                <label for="name">name</label>
+                <input type="text" name="name">
+                <br>
+                <label for="aka">prenom</label>
+                <input type="text" name="aka">
+                <br>
+                <label for="adresse">adresse</label>
+                <input type="text" name="adresse">
+                <br>
+                <label for="telephone">telephone</label>
+                <input type="telephone" name="telephone" placeholder="06">^
+                <br>
+                <label for="ville">ville</label>
+                <input type="text" placeholder="agadir">
+                <br>
+                <label for="email">email</label>
+                <input type="email" name="email">
+                <br>
+                <label for="pass">password</label>
+                <input type="password" name="pass" required>
+                <br>
+                <label for="file">photo</label>
+                <input type="file" name="file">
+                <br>
+                <label for="niveau">entrez votre niveau</label>
+                <select name="niveau" id="niveau">
+                    <option value="niveau">bac</option>
+                    <option value="niveau">deug</option>
+                    <option value="niveau">license</option>
+                    <option value="niveau">license+1</option>
+                    <option value="niveau">master</option>
+                </select>
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <label for="name">full name</label>
+            <input type="text" id="name" placeholder="john Doe">
+            <br>
+            <label for="date"> date of Birth</label>
+            <input type="date" id="date" >
+            <br>
+            <div> weekly Work capacity  <textarea ></textarea></div>
+           <br>
+            <label for="file">profile picture</label>
+            <input type="file" id="file">
+            <br>
+            
+             <label for="food">food</label>
+             <input type="checkbox" id="food">
+            <label for="veg">vegan</label>
+            <input type="checkbox" id="veg" value="veg">
+            <label for="vege">vegetarian</label>
+            <input type="checkbox" id="vege" value="vege">
+            <label for="nveg">non vegetarian</label>
+            <input type="checkbox" id="nveg" value="nveg">
+            <label for="non">i d rather not specify</label>
+            <input type="checkbox" id="non" value="non">
+            <br>
+            <label for="pass">your password</label>
+            <input type="password" id="pass">
+            <br>
+            <label for="pass">confirm password</label>
+            <input type="password" id="pass">
+            <br>
+            <input type="checkbox" id="term">
+            <label for="term">terms ans conditions</label>
+            <br>
+            <br>
+            <input type="submit" value="submit">
+
+            
+            
+        </fieldset>
+    </form>
+</body>
+</html>
